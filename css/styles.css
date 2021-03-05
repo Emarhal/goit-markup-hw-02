@@ -1,0 +1,28 @@
+/* All color of site */
+:root {
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --all-text-color: #757575;
+  --primary-white-color: #ffffff;
+  --primary-black-color: #000000;
+}
+
+/* Styles for index.html */
+
+/* Header */
+
+/* Logo styles */
+.logo-blue {
+  color: var(--accent-color);
+}
+.logo-black {
+  color: var(--primary-black-color);
+}
+/* Navigation */
+.navigation-list.nav-items {
+  color: var(--title-text-color);
+}
+.nav-items:hover,
+.nav-items:focus {
+  color: var(--accent-color);
+}
