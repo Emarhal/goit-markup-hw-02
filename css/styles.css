@@ -5,6 +5,7 @@
   --all-text-color: #757575;
   --primary-white-color: #ffffff;
   --primary-black-color: #000000;
+  --contacts-bottom-color: #8f8f94;
 }
 
 /* Styles for index.html */
@@ -19,10 +20,51 @@
   color: var(--primary-black-color);
 }
 /* Navigation */
-.navigation-list.nav-items {
+.navigation-list .nav-items {
   color: var(--title-text-color);
 }
 .nav-items:hover,
 .nav-items:focus {
   color: var(--accent-color);
+}
+/* Contacts Email tel Top */
+.contacts-top .top-items {
+  color: var(--title-text-color);
+}
+.contacts-top .top-items:hover,
+.contacts-top .top-items:focus {
+  color: var(--accent-color);
+}
+/* Main content */
+
+/* Engage section */
+.title-engage {
+  color: var(--title-text-color);
+}
+.engage-text {
+  color: var(--all-text-color);
+}
+.collecting-title {
+  color: var(--title-text-color);
+}
+/* Our team */
+.full-name-title {
+  color: var(--title-text-color);
+}
+.profession-team {
+  color: var(--all-text-color);
+}
+/* Footer */
+.contact-bottom .bottom-item {
+  color: var(--contacts-bottom-color);
+}
+
+/* Styles for portfolio.html */
+
+/* Our work section */
+.our-work-title {
+  color: var(--title-text-color);
+}
+.our-work-text {
+  color: var(--all-text-color);
 }
