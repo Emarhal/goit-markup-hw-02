@@ -7,21 +7,43 @@
   --primary-black-color: #000000;
   --contacts-bottom-color: #8f8f94;
 }
+body {
+  /* color: var(--primary-white-color); */
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  /* letter-spacing: 0.02em;
+  letter-spacing: 0.06em; */
+}
 
 /* Styles for index.html */
 
 /* Header */
 
 /* Logo styles */
-.logo-blue {
+.logo {
+  font-family: "Raleway", sans-serif;
+  /* position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px; */
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo .logo-blue {
   color: var(--accent-color);
 }
-.logo-black {
+.logo .logo-black {
   color: var(--primary-black-color);
 }
 /* Navigation */
 .navigation-list .nav-items {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav-items:hover,
 .nav-items:focus {
@@ -37,6 +59,10 @@
 }
 /* Main content */
 
+/* Унаследование кнопкой фонт фемили */
+button {
+  font-family: inherit;
+}
 /* Engage section */
 .title-engage {
   color: var(--title-text-color);
