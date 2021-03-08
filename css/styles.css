@@ -135,7 +135,10 @@ button {
   font-size: 14px;
   line-height: 1.71;
 }
-
+.contact-bottom .bottom-item:hover,
+.contact-bottom .bottom-item:focus {
+  color: var(--accent-color);
+}
 /* Styles for portfolio.html */
 
 /* Our work section */
