@@ -24,6 +24,7 @@ body {
 /* Унаследование кнопкой фонт фемили */
 button {
   font-family: inherit;
+  cursor: pointer;
 }
 /* Styles for index.html */
 
@@ -57,6 +58,11 @@ button {
 /* Contacts Email tel Top */
 .contacts-top .top-items {
   color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts-top .top-items:hover,
 .contacts-top .top-items:focus {
@@ -87,7 +93,6 @@ button {
 }
 .engage-text {
   color: var(--all-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -107,7 +112,6 @@ button {
 }
 .profession-team {
   color: var(--all-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -144,7 +148,6 @@ button {
 }
 .our-work-text {
   color: var(--all-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
 }
