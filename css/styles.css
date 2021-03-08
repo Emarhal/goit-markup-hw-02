@@ -6,15 +6,25 @@
   --primary-white-color: #ffffff;
   --primary-black-color: #000000;
   --contacts-bottom-color: #8f8f94;
+  --footer-background-color: #2f303a;
 }
 body {
-  /* color: var(--primary-white-color); */
+  background-color: var(--primary-white-color);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   /* letter-spacing: 0.02em;
   letter-spacing: 0.06em; */
 }
-
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* Унаследование кнопкой фонт фемили */
+button {
+  font-family: inherit;
+}
 /* Styles for index.html */
 
 /* Header */
@@ -22,11 +32,6 @@ body {
 /* Logo styles */
 .logo {
   font-family: "Raleway", sans-serif;
-  /* position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px; */
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -59,30 +64,72 @@ body {
 }
 /* Main content */
 
-/* Унаследование кнопкой фонт фемили */
-button {
-  font-family: inherit;
+.banner-section {
+  background-color: var(--footer-background-color);
 }
+.banner-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 /* Engage section */
 .title-engage {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .engage-text {
   color: var(--all-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .collecting-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 /* Our team */
 .full-name-title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 .profession-team {
   color: var(--all-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
 }
 /* Footer */
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer-address {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
 .contact-bottom .bottom-item {
   color: var(--contacts-bottom-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Styles for portfolio.html */
@@ -90,7 +137,14 @@ button {
 /* Our work section */
 .our-work-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .our-work-text {
   color: var(--all-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
 }
