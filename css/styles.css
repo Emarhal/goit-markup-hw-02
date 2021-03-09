@@ -21,10 +21,38 @@ body {
 .link {
   text-decoration: none;
 }
-/* Унаследование кнопкой фонт фемили */
+/* Общее для кнопки */
 button {
-  font-family: inherit;
   cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+/* Класс кнопка для студия */
+.btn-studio {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Класс кнопка для портфолио */
+.btn-portfolio {
+  color: var(--title-text-color);
+  /* background-color: #f5f4fa; */
+}
+.btn-portfolio:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 /* Styles for index.html */
 
@@ -43,6 +71,9 @@ button {
 .logo .logo-black {
   color: var(--primary-black-color);
 }
+.logo .logo-wtite {
+  color: var(--primary-white-color);
+}
 /* Navigation */
 .navigation-list .nav-items {
   color: var(--title-text-color);
@@ -51,13 +82,20 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.nav-items:hover,
-.nav-items:focus {
+.navigation-list .nav-items:hover,
+.navigation-list .nav-items:focus {
   color: var(--accent-color);
 }
+.navigation-list .nav-items.current {
+  color: var(--accent-color);
+}
+/* .navigation-list .nav-items:visited {
+  color: tomato;
+} */
+
 /* Contacts Email tel Top */
 .contacts-top .top-items {
-  color: var(--title-text-color);
+  color: var(--all-text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
